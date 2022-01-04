@@ -1,0 +1,72 @@
+сент. 13, 2021 10:30:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+сент. 13, 2021 10:30:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 93, so returning the closest version found: 91
+сент. 13, 2021 10:30:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 93 of 91
+сент. 13, 2021 10:30:49 PM BrowserFactory goToURL
+INFO: Переход по URL: http://the-internet.herokuapp.com
+сент. 13, 2021 10:30:52 PM BrowserFactory goToURL
+INFO: Переход по URL произведен успешно
+сент. 13, 2021 10:30:52 PM TestTask2 Test1
+INFO: ТЕСТ 1
+сент. 13, 2021 10:30:52 PM BrowserUtil getAuthUrl
+INFO: Создание URL для входа
+сент. 13, 2021 10:30:52 PM BrowserUtil getAuthUrl
+INFO: Создание URL для входа прошло успешно
+сент. 13, 2021 10:30:52 PM BrowserFactory goToURL
+INFO: Переход по URL: http:admin:admin@the-internet.herokuapp.com/basic_auth
+сент. 13, 2021 10:30:53 PM BrowserFactory goToURL
+INFO: Переход по URL произведен успешно
+сент. 13, 2021 10:30:53 PM TestTask2 Test1
+INFO: Проверка на отображаемый текст
+сент. 13, 2021 10:30:53 PM TestTask2 Test1
+INFO: Проверка прошла успешно
+сент. 13, 2021 10:30:53 PM TestTask2 Test1
+INFO: ТЕСТ 1 Конец
+
+
+сент. 13, 2021 10:30:53 PM TestTask2 Test2_Alerts
+INFO: ТЕСТ 2
+сент. 13, 2021 10:30:53 PM BrowserFactory goToURL
+INFO: Переход по URL: http://the-internet.herokuapp.com/javascript_alerts
+сент. 13, 2021 10:30:53 PM BrowserFactory goToURL
+INFO: Переход по URL произведен успешно
+сент. 13, 2021 10:30:53 PM PageAlerts waitForOpen
+INFO: Ожидание прогрузки страницы
+сент. 13, 2021 10:30:53 PM PageAlerts waitForOpen
+INFO: Ожидание прогрузки страницы произведено успешно
+сент. 13, 2021 10:30:53 PM PageAlerts clickButtonJSAlert
+INFO: Клик по кнопке 'Click for JS Alert'
+сент. 13, 2021 10:30:53 PM PageAlerts clickButtonJSAlert
+INFO: Клик по кнопке 'Click for JS Alert' произведен успешно
+сент. 13, 2021 10:30:53 PM TestTask2 Test2_Alerts
+INFO: Проверка на отображение текста в Alert I am a JS Alert
+сент. 13, 2021 10:30:53 PM AlertUtils getTextAlert
+INFO: Получен текст: I am a JS Alert
+сент. 13, 2021 10:30:53 PM TestTask2 Test2_Alerts
+INFO: 'I am a JS Alert' text is displayed
+сент. 13, 2021 10:30:53 PM AlertUtils clickButtonOkAlert
+INFO: Клик по кнопке 'Ok' в Alert
+сент. 13, 2021 10:30:53 PM AlertUtils clickButtonOkAlert
+INFO: Клик по кнопке 'Ok' в Alert произведен успешно
+сент. 13, 2021 10:30:53 PM TestTask2 Test2_Alerts
+INFO: Проверка на отображение текста You successfully clicked an alert
+сент. 13, 2021 10:30:53 PM TestTask2 Test2_Alerts
+INFO: 'You successfully clicked an alert' text is displayed in Result section
+сент. 13, 2021 10:30:53 PM PageAlerts clickButtonJSConfirm
+INFO: Клик по кнопке 'Click for JS Config'
+сент. 13, 2021 10:30:53 PM PageAlerts clickButtonJSConfirm
+INFO: Клик по кнопке 'Click for JS Config' произведен успешно
+сент. 13, 2021 10:30:53 PM TestTask2 Test2_Alerts
+INFO: Проверка на отображение текста в Alert I am a JS Confirm
+сент. 13, 2021 10:30:53 PM AlertUtils getTextAlert
+INFO: Получен текст: I am a JS Confirm
+сент. 13, 2021 10:30:53 PM TestTask2 Test2_Alerts
+INFO: 'I am a JS Confirm' text is displayed
+сент. 13, 2021 10:30:53 PM AlertUtils clickButtonOkAlert
+INFO: Клик по кнопке 'Ok' в Alert
+сент. 13, 2021 10:30:53 PM AlertUtils clickButtonOkAlert
+INFO: Клик по кнопке 'Ok' в Alert произведен успешно
+сент. 13, 2021 10:30:53 PM TestTask2 Test2_Alerts
+INFO: Проверка на отображение текста You clicked: OK
