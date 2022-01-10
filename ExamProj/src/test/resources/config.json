@@ -1,0 +1,4 @@
+{
+  "baseUriApi": "http://localhost:8080/api/",
+  "baseUriWeb": "http://%s:%s@localhost:8080/web/projects"
+}
