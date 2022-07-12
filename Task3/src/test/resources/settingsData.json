@@ -1,0 +1,5 @@
+{
+  "uri": "https://vk.com/",
+  "base_request": "https://api.vk.com/method/",
+  "version_api": "5.131"
+}
