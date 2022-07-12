@@ -1,0 +1,29 @@
+package utils;
+
+import java.security.SecureRandom;
+
+public class RandomUtils {
+    private static String letters = "abcdefghijklmnopqrstuvwxyz";
+    private static SecureRandom rnd = new SecureRandom();
+    private static StringBuilder commonLetter = new StringBuilder(1).append(letters.charAt(rnd.nextInt(letters.length())));
+
+    public static String getRandomString(int length) {
+        StringBuilder randomString = new StringBuilder((length));
+
+        randomString.append(commonLetter);
+        for (int i = 0; i < (length - randomString.length()); ) {
+            randomString.append(letters.charAt(rnd.nextInt(letters.length())));
+        }
+
+        return randomString.toString();
+    }
+
+    public static Integer getRandomRepeatingNumber(int count) {
+        int num = (int) (Math.random() * 9);
+        String s = "";
+        for (int i = 0; i < count; i++) {
+            s += String.valueOf(num);
+        }
+        return Integer.valueOf(s);
+    }
+}
